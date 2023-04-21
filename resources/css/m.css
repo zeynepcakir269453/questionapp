@@ -1,0 +1,22 @@
+.control--menu
+{
+    padding: 7px;
+    background: #9d9191;
+    margin-bottom: 30px;
+}
+.control--menu a {
+    color: white;
+}
+
+.pt-4, .py-4 { padding-top: 0px !important; }
+
+.m-checkbox {padding: 5px; background-color: rgb(106, 128, 128);}
+
+.media {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #eee;
+}
+a.title { display: block;}
+.media-body .description {margin-bottom: 10px;}
+.detail {margin-top: 5px; background-color: #9d9191;padding: 5px;}
