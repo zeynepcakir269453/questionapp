@@ -20,3 +20,7 @@
 a.title { display: block;}
 .media-body .description {margin-bottom: 10px;}
 .detail {margin-top: 5px; background-color: #9d9191;padding: 5px;}
+.isCorrect {
+    padding: 3px;
+    border: 2px dotted green;
+}

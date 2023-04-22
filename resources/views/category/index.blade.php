@@ -16,7 +16,7 @@
                   {{$v['text']}}
                 </div>
               <div class="detail">
-               <a href="">{{\App\Models\Comments::getCount($v['id'])}} Yorum</a> - <a href="">101 Görüntülenme</a> -<a href="{{ route('view',['selflink'=>$v['selflink'],'id'=>$v['id']] )}}">Devamını Oku</a> 
+               <a href="">{{\App\Models\Comments::getCount($v[0]['id'])}} Yorum</a> - <a href="">101 Görüntülenme</a> -<a href="{{ route('view',['selflink'=>$v['selflink'],'id'=>$v['id']] )}}">Devamını Oku</a> 
               </div>
 
               </div>

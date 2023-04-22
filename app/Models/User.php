@@ -33,6 +33,11 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    static function getName($id){
+        $x=User::where('id',$id)->get();
+        return $x[0]['first_name']." ".$x[0]['last_name'];
+    }
+
     /**
      * The attributes that should be cast.
      *
